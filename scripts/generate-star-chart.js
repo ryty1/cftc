@@ -17,7 +17,7 @@ async function fetchStargazers() {
 
   while (true) {
     console.log(`📡 正在获取第 ${page} 页星标数据...`);
-    const response = await fetch(`https://api.github.com/repos/iawooo/ctt/stargazers?per_page=${perPage}&page=${page}`, {
+    const response = await fetch(`https://api.github.com/repos/iawooo/cftc/stargazers?per_page=${perPage}&page=${page}`, {
       headers: {
         'Authorization': `token ${token}`,
         'Accept': 'application/vnd.github.v3.star+json',
