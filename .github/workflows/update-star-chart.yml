@@ -47,5 +47,5 @@ jobs:
           echo "Files staged for commit:"
           git status
           git commit -m "Update star chart and README with new image version" || echo "No changes to commit"
-          git remote set-url origin https://x-access-token:${{ secrets.CUSTOM_GITHUB_TOKEN }}@github.com/iawooo/ctt.git
+          git remote set-url origin https://x-access-token:${{ secrets.CUSTOM_GITHUB_TOKEN }}@github.com/iawooo/cftc.git
           git push
