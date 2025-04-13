@@ -1,8 +1,9 @@
 
 ## 📸 截图
-| 主页上传界面 | 文件管理面板 | Telegram 交互 |
+| 网页管理 | Telegram 交互 |
 |--------------|--------------|---------------|
-| ![Upload Page](https://via.placeholder.com/300x200.png?text=Upload+Page) | ![Admin Panel](https://via.placeholder.com/300x200.png?text=Admin+Panel) | ![Telegram Bot](images/image.png) |
+|![image](https://github.com/user-attachments/assets/38d2ca56-d316-4463-a488-90b9acf5043d)
+| ![Telegram Bot](images/image.png) |
 
 ## ✨ 核心特性
 
