@@ -1,8 +1,8 @@
 
 ## 📸 截图
-| 网页管理 | Telegram 交互 |
-|![image](https://github.com/user-attachments/assets/38d2ca56-d316-4463-a488-90b9acf5043d)
-| ![Telegram Bot](images/image.png) |
+| 网页管理               | Telegram 交互            |
+|------------------------|--------------------------|
+| ![网页管理](https://github.com/user-attachments/assets/38d2ca56-d316-4463-a488-90b9acf5043d) | ![Telegram Bot](images/image.png) |
 
 ## ✨ 核心特性
 
