@@ -2797,7 +2797,7 @@ function generateUploadPage(categoryOptions, storageType) {
         text-align: center;
         margin-bottom: 1.5rem;
         border-radius: 10px;
-        background: #fff;
+        background-color: transparent;
         transition: all 0.3s ease;
         box-shadow: 0 2px 10px rgba(0,0,0,0.05);
       }
@@ -2874,7 +2874,7 @@ function generateUploadPage(categoryOptions, storageType) {
         padding: 0.8rem;
         border: 2px solid #dfe6e9;
         border-radius: 8px;
-        background: #fff;
+        background-color: transparent;
         font-size: 0.9rem;
         resize: vertical;
         transition: border-color 0.3s ease;
@@ -3008,6 +3008,7 @@ function generateUploadPage(categoryOptions, storageType) {
         .options {
           flex-direction: column;
           align-items: stretch;
+          background-color: transparent;
         }
         .new-category {
            flex-direction: column;
@@ -3391,7 +3392,7 @@ function generateAdminPage(fileCards, categoryOptions) {
         border: 2px solid #dfe6e9;
         border-radius: 8px;
         font-size: 0.9rem;
-        background: #fff;
+        background-color: transparent;
         transition: border-color 0.3s ease;
         box-shadow: 0 2px 5px rgba(0,0,0,0.05);
       }
@@ -3425,7 +3426,7 @@ function generateAdminPage(fileCards, categoryOptions) {
         transform: translateY(-2px);
       }
       .action-bar {
-        background: rgba(255, 255, 255, 0.95);
+        background: rgba(255, 255, 255, 0.2);
         padding: 1.5rem;
         border-radius: 15px;
         box-shadow: 0 10px 30px rgba(0,0,0,0.1);
