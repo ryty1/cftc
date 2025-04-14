@@ -106,5 +106,5 @@ CloudSnap 提供了以下强大的功能，满足从个人用户到开发者的�
 ### Telegram - 便捷的 Bot API。
 ### 感谢所有测试者、贡献者和社区支持！
 
-# star 谢谢您的star
+# ⭐ 谢谢您的star
 ![Star 增长趋势](https://raw.githubusercontent.com/iawooo/StarCharts/refs/heads/main/images/cftc_star_chart.png)
