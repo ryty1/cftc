@@ -2542,7 +2542,7 @@ function generateLoginPage() {
       .container {
         max-width: 400px;
         width: 100%;
-        background: rgba(255, 255, 255, 0.95);
+        background: rgba(255, 255, 255, 0.2);
         border-radius: 15px;
         box-shadow: 0 10px 30px rgba(0,0,0,0.1);
         padding: 2rem;
@@ -2703,7 +2703,7 @@ function generateUploadPage(categoryOptions, storageType) {
       .container {
         max-width: 900px;
         width: 100%;
-        background: rgba(255, 255, 255, 0.95);
+        background: rgba(255, 255, 255, 0.2);
         border-radius: 15px;
         box-shadow: 0 10px 30px rgba(0,0,0,0.1);
         padding: 2rem;
@@ -3367,7 +3367,7 @@ function generateAdminPage(fileCards, categoryOptions) {
         margin: 0 auto;
       }
       .header {
-        background: rgba(255, 255, 255, 0.95);
+        background: rgba(255, 255, 255, 0.2);
         padding: 1.5rem;
         border-radius: 15px;
         box-shadow: 0 10px 30px rgba(0,0,0,0.1);
