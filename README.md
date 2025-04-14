@@ -76,32 +76,19 @@ CloudSnap 提供了以下强大的功能，满足从个人用户到开发者的�
 
 以下是项目中需要在 Cloudflare 环境中绑定的变量及其说明：
 
-6.  **配置环境变量/Secrets**:
-    在 Cloudflare 控制台的 Worker 设置页面，或者使用 Wrangler 命令设置以下 Secrets/Variables:
-    *   `TG_BOT_TOKEN`: **(必需)** 你的 Telegram Bot Token。从 BotFather 获取。
-    *   `DOMAIN`: **(必需)** 部署 Worker 的域名 (例如: `your-worker-name.your-account.workers.dev` 或你的自定义域名 `files.yourdomain.com`)。**重要：** 不需要 `https://` 前缀。
-    *   `TG_CHAT_ID`: **(可选)** 允许使用此 Bot 的 Telegram Chat ID，多个 ID 用英文逗号 `,` 分隔。如果留空，则所有用户都可以使用 Bot。
-    *   `TG_STORAGE_CHAT_ID`: **(必需，如果使用 Telegram 存储)** 用于存储文件的 Telegram Chat ID (可以是用户 ID、群组 ID 或频道 ID)。**确保 Bot 是该聊天的管理员且具有发送/删除消息权限！** 如果未设置，将尝试使用 `TG_CHAT_ID` 中的第一个 ID。
-    *   `ENABLE_AUTH`: **(可选)** 设置为 `true` 来启用网页界面的 Basic Auth 认证。
-    *   `USERNAME`: **(必需，如果 `ENABLE_AUTH` 为 `true`)** Basic Auth 的用户名。
-    *   `PASSWORD`: **(必需，如果 `ENABLE_AUTH` 为 `true`)** Basic Auth 的密码。
-    *   `MAX_SIZE_MB`: **(可选)** 允许上传的最大文件大小 (MB)，默认为 `20`。
-    *   `COOKIE`: **(可选)** 网页认证 Cookie 的有效期天数，默认为 `7`。
-
-
 | **变量名**                  | **类型**   | **描述**                                                                 | **默认值/示例**            |
 |-----------------------------|------------|--------------------------------------------------------------------------|----------------------------|
-| `DATABASE`                 | D1 绑定    | Cloudflare D1 数据库绑定名称，用于存储文件元数据、用户设置和分类信息。   | `cloudsnap-db`             |
-| `DOMAIN`                   | 环境变量   | Cloudflare Workers/pages 部署域名，用于生成文件直链和设置 Telegram Webhook。    | `yourdomain.workers/pages.dev`   |
-| `TG_BOT_TOKEN`             | 环境变量   | Telegram 机器人 Token，用于与 Telegram API 通信以处理文件上传和交互。    | `123456:ABC-DEF1234ghIkl` |
-| `TG_CHAT_ID`               | 环境变量   | 允许使用机器人的 Telegram 用户或群组 ID（逗号分隔），限制访问权限。      | `123456789,-987654321`     |
-| `TG_STORAGE_CHAT_ID`       | 环境变量   | 用于存储文件的 Telegram 群组或频道 ID，Telegram 存储模式必需。           | `-100123456789`            |
-| `ENABLE_AUTH`              | 环境变量   | 是否启用网页管理界面的用户名/密码认证（`true` 或 `false`）。             | `true`                     |
-| `USERNAME`                 | 环境变量   | 管理面板的登录用户名，配合 `ENABLE_AUTH` 使用。                          | `admin`                    |
-| `PASSWORD`                 | 环境变量   | 管理面板的登录密码，配合 `ENABLE_AUTH` 使用。                            | `your_secure_password`     |
-| `MAX_SIZE_MB`              | 环境变量   | 单个文件的最大大小限制（单位 MB），防止上传过大文件。                    | `20`                       |
-| `BUCKET`                   | R2 绑定    | Cloudflare R2 存储桶绑定名称，用于 R2 存储模式（若启用）。               | `cloudsnap-bucket`         |
-| `COOKIE`                   | 环境变量   | 网页认证 Cookie 的有效期（单位天），控制登录会话时长。                   | `7`                        |
+| `DATABASE`                 | D1 绑定    | (必需)Cloudflare D1 数据库绑定名称，用于存储文件元数据、用户设置和分类信息。   | `cloudsnap-db`             |
+| `DOMAIN`                   | 环境变量   | (必需)Cloudflare Workers/pages 部署域名，用于生成文件直链和设置 Telegram Webhook。    | `yourdomain.workers/pages.dev`   |
+| `TG_BOT_TOKEN`             | 环境变量   | (必需)Telegram 机器人 Token，用于与 Telegram API 通信以处理文件上传和交互。    | `123456:ABC-DEF1234ghIkl` |
+| `TG_STORAGE_CHAT_ID`       | 环境变量   | (必需，如果使用 Telegram 存储)用于存储文件的 Telegram 群组或频道 ID。           | `-100123456789`            |
+| `USERNAME`                 | 环境变量   | (必需，如果 `ENABLE_AUTH` 为 `true`)管理面板的登录用户名。                          | `admin`                    |
+| `PASSWORD`                 | 环境变量   | (必需，如果 `ENABLE_AUTH` 为 `true`)管理面板的登录密码。                            | `your_secure_password`     |
+| `MAX_SIZE_MB`              | 环境变量   | (可选)单个文件的最大大小限制（单位 MB），防止上传过大文件。                    | `20`                       |
+| `BUCKET`                   | R2 绑定    | (可选)Cloudflare R2 存储桶绑定名称，用于 R2 存储模式（若启用）。               | `cloudsnap-bucket`         |
+| `COOKIE`                   | 环境变量   | (可选)网页认证 Cookie 的有效期（单位天），控制登录会话时长。                   | `7`                        |
+| `TG_CHAT_ID`               | 环境变量   | (可选)允许使用机器人的 Telegram 用户（英文逗号分隔），限制访问权限。      | `123456789,987654321`     |
+| `ENABLE_AUTH`              | 环境变量   | (可选)是否启用网页管理界面的用户名/密码认证（`true` 或 `false`）。             | `true`                     |
 
 ## 🧩 技术栈
 
