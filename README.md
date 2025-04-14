@@ -6,8 +6,8 @@
 
 ## ✨ 核心特性
 
-- **与 [CTT](https://github.com/iawooo/cftc) 项目协同，实现一举两得**  
-  - **提升整体效率**：与  [CTT](https://github.com/iawooo/cftc)  项目无缝协作，共享 Telegram 生态的优势。群组中用户既能享受 CTT 的消息转发功能，又能利用 cftc 的图床服务，最大化 Telegram 群组的价值。
+- **与 [CTT](https://github.com/iawooo/ctt) 项目协同，实现一举两得**  
+  - **提升整体效率**：与  [CTT](https://github.com/iawooo/ctt)  项目无缝协作，共享 Telegram 生态的优势。群组中用户既能享受 CTT 的消息转发功能，又能利用 cftc 的图床服务，最大化 Telegram 群组的价值。
 
 - **Telegram 机器人驱动的智能管理**  
   - **随时随地操作**：内置 Telegram 机器人提供直观的菜单面板，支持上传、修改后缀、管理和分类文件等功能。用户通过简单按钮即可完成复杂操作，无需专业技能，管理文件如同聊天般轻松。
