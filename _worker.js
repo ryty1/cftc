@@ -2777,7 +2777,7 @@ function generateUploadPage(categoryOptions, storageType) {
         padding: 0.8rem 1.5rem;
         border: 2px solid #dfe6e9;
         border-radius: 8px;
-        background: #fff;
+        background: red;
         cursor: pointer;
         transition: all 0.3s ease;
         box-shadow: 0 2px 5px rgba(0,0,0,0.05);
@@ -3017,6 +3017,7 @@ function generateUploadPage(categoryOptions, storageType) {
         }
         .new-category input {
            width: auto;
+           background-color: transparent;
         }
         .storage-toggle {
            justify-content: center;
@@ -3445,6 +3446,7 @@ function generateAdminPage(fileCards, categoryOptions) {
         display: flex;
         gap: 1rem;
         align-items: center;
+        background-color: transparent;
       }
       .action-bar h3 {
         margin: 0;
