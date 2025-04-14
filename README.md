@@ -75,20 +75,20 @@ cftc 提供了以下强大的功能，满足从个人用户到开发者的多种
 
 ## 部署教程
 #### 准备工作
-1. **创建Telegram Bot**：
+1. **创建Telegram Bot**（获取`TG_BOT_TOKEN`变量）：
    - 在Telegram中找到`@BotFather`，发送`/newbot`创建新机器人。
    - 按照提示设置机器人名称和用户名，获取Bot Token（例如`123456:ABC-DEF1234ghIkl-zyx57W2v1u123ew11`）。
 
-2. **创建后台群组**：
+2. **创建后台群组**（获取`TG_STORAGE_CHAT_ID`变量）：
    - 创建一个Telegram群组（按需设置是否公开），
    - 添加机器人为管理员。
    - 获取群组的Chat ID（例如`-100123456789`），可以通过`@getidsbot`获取（拉它进群）。
    - 
-#### 创建D1 SQL数据库
+#### 创建D1 SQL数据库（获取`DATABASE`变量）
 1. 登录[Cloudflare仪表板](https://dash.cloudflare.com/)。
 2. 导航到 **存储和数据库 > D1 SQL数据库**，输入一个名称（例如`cftc`），点击 **创建**。
 
-#### 创建R2存储桶
+#### 创建R2存储桶（获取`BUCKET`变量）
 
 ### 部署到Cloudflare pages (推荐)
 ### *点个star，frok本项目** 
