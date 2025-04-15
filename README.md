@@ -1,4 +1,5 @@
-# cftc是基于cloudflare部署的图床，支持telegram机器人管理和网页管理文件（包括上传，删除，分类，修改后缀等功能）
+# cftc-基于cloudflare部署的图床。
+- 支持telegram机器人管理和网页管理文件（包括上传，删除，分类，修改后缀等功能）
 ## 📸 截图
 | 网页管理               | Telegram 交互            |
 |------------------------|--------------------------|
@@ -75,15 +76,14 @@ cftc 提供了以下强大的功能，满足从个人用户到开发者的多种
 
 ## 部署教程
 #### 准备工作
-1. **创建Telegram Bot**（获取`TG_BOT_TOKEN`变量）：
+**创建Telegram Bot**（获取`TG_BOT_TOKEN`变量）：
    - 在Telegram中找到`@BotFather`，发送`/newbot`创建新机器人。
    - 按照提示设置机器人名称和用户名，获取Bot Token（例如`123456:ABC-DEF1234ghIkl-zyx57W2v1u123ew11`）。
-
-2. **创建后台群组**（获取`TG_STORAGE_CHAT_ID`变量）：
+**创建后台群组**（获取`TG_STORAGE_CHAT_ID`变量）：
    - 创建一个Telegram群组（按需设置是否公开），
    - 添加机器人为管理员。
    - 获取群组的Chat ID（例如`-100123456789`），可以通过`@getidsbot`获取（拉它进群）。
-   - 
+
 #### 创建D1 SQL数据库（获取`DATABASE`变量）
 1. 登录[Cloudflare仪表板](https://dash.cloudflare.com/)。
 2. 导航到 **存储和数据库 > D1 SQL数据库**，输入一个名称（例如`cftc`），点击 **创建**。
