@@ -1,5 +1,6 @@
 # cftc-基于cloudflare部署的图床。
 - 支持telegram机器人管理和网页管理文件（包括上传，删除，分类，修改后缀等功能）
+## [cftc](https://github.com/iawooo/cftc/) 支持R2 telegram存储，多多star后期可能会跟进B2 S3等存储
 ## 📸 截图
 | 网页管理               | Telegram 交互            |
 |------------------------|--------------------------|
@@ -103,6 +104,11 @@ cftc 提供了以下强大的功能，满足从个人用户到开发者的多种
 7. 点击**部署**，找到**重试部署**，点击**重试部署**
 
 ### 部署到Cloudflare Workers 
+1. 登录[Cloudflare仪表板](https://dash.cloudflare.com/)。
+2. 导航到 **Workers和Pages > Workers和Pages**，点击 **创建**。
+3. 点击**Hello world**，命名后点击**部署**
+4. 点击**编辑代码**，删除原来的代码再把该项目中的**_worker.js**代码替换
+5. 点击部署后根据变量表配置变量
 ## 🛠️ 使用说明
 
 *   **网页界面**:
@@ -144,6 +150,7 @@ cftc 提供了以下强大的功能，满足从个人用户到开发者的多种
 ### 欢迎提交 Issue 或 Pull Request！如果您有任何改进建议或新功能需求，请随时联系我。
 
 ## 🌟 致谢
+### ### [帖子](https://www.nodeseek.com/post-308544-1#1) [CF-tgfile](https://github.com/yutian81/CF-tgfile) 提供参考和灵感
 ### 感谢所有测试者、贡献者和社区支持！
 ###  [cloud flare](https://www.cloudflare.com/) - 提供强大的基础设施支持。
 ### [telegram](https://telegram.org/) - 便捷的 Bot API。
