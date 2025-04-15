@@ -1,4 +1,4 @@
-
+# cftc是基于cloudflare部署的图床，支持telegram机器人管理和网页管理文件（包括上传，删除，分类，修改后缀等功能）
 ## 📸 截图
 | 网页管理               | Telegram 交互            |
 |------------------------|--------------------------|
@@ -88,7 +88,8 @@ cftc 提供了以下强大的功能，满足从个人用户到开发者的多种
 1. 登录[Cloudflare仪表板](https://dash.cloudflare.com/)。
 2. 导航到 **存储和数据库 > D1 SQL数据库**，输入一个名称（例如`cftc`），点击 **创建**。
 
-#### 创建R2存储桶（获取`BUCKET`变量）
+#### 创建R2存储桶（获取`BUCKET`变量）<可选>
+
 
 ### 部署到Cloudflare pages (推荐)
 ### *点个star，frok本项目** 
@@ -105,7 +106,7 @@ cftc 提供了以下强大的功能，满足从个人用户到开发者的多种
 ## 🛠️ 使用说明
 
 *   **网页界面**:
-    *   访问 Worker 的 URL (例如 `https://your-worker.workers.dev/` 或你的自定义域名)。
+    *   访问 Worker/pages 的 URL (例如 `https://cftc.workers/pages.dev/` 或你的自定义域名)。
     *   如果启用了认证，需要先在 `/login` 页面登录。
     *   `/upload`: 文件上传页面，可选择分类和存储后端。
     *   `/admin`: 文件管理后台，可查看、搜索、筛选、分享、删除文件和管理分类。
@@ -140,12 +141,13 @@ cftc 提供了以下强大的功能，满足从个人用户到开发者的多种
 - **JavaScript (ES Modules)**：核心逻辑，异步处理请求。
 
 ## 🤝 贡献
-### 欢迎为 cftc 贡献代码或建议！
+### 欢迎提交 Issue 或 Pull Request！如果您有任何改进建议或新功能需求，请随时联系我。
 
 ## 🌟 致谢
-### Cloudflare - 提供强大的基础设施支持。
-### Telegram - 便捷的 Bot API。
 ### 感谢所有测试者、贡献者和社区支持！
+###  [cloud flare](https://www.cloudflare.com/) - 提供强大的基础设施支持。
+### [telegram](https://telegram.org/) - 便捷的 Bot API。
+### 感谢 [xAI](https://x.ai/)   [claude](https://claude.ai/) 帮助我完成了本项目的开发和优化
 
 # ⭐ 谢谢您的star
 ![Star 增长趋势](https://raw.githubusercontent.com/iawooo/StarCharts/refs/heads/main/images/cftc_star_chart.png)
