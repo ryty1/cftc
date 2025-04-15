@@ -1,4 +1,4 @@
-# cftc-基于cloudflare部署的图床。
+# cftc-基于cloudflare部署的图床。[直达部署](https://github.com/iawooo/cftc/tree/main?tab=readme-ov-file#%E9%83%A8%E7%BD%B2%E6%95%99%E7%A8%8B)
 - 支持telegram机器人管理和网页管理文件（包括上传，删除，分类，修改后缀等功能）
 ## [cftc](https://github.com/iawooo/cftc/) 支持R2 telegram存储，多多star后期可能会跟进B2 S3等存储
 ## 📸 截图
