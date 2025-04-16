@@ -150,7 +150,7 @@ cftc 提供了以下强大的功能，满足从个人用户到开发者的多种
 ### 欢迎提交 Issue 或 Pull Request！如果您有任何改进建议或新功能需求，请随时联系我。
 
 ## 🌟 致谢
-### ### [帖子](https://www.nodeseek.com/post-308544-1#1) [CF-tgfile](https://github.com/yutian81/CF-tgfile) 提供参考和灵感
+### [帖子]和(https://www.nodeseek.com/post-308544-1#1) [CF-tgfile](https://github.com/yutian81/CF-tgfile) 提供参考和灵感
 ### 感谢所有测试者、贡献者和社区支持！
 ###  [cloud flare](https://www.cloudflare.com/) - 提供强大的基础设施支持。
 ### [telegram](https://telegram.org/) - 便捷的 Bot API。
