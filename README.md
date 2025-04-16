@@ -93,7 +93,7 @@ cftc 提供了以下强大的功能，满足从个人用户到开发者的多种
 
 
 ### 部署到Cloudflare pages (推荐)
-### *点个star，frok本项目** 
+### **点个star，frok本项目**
 #### 创建pages项目
 1. 登录[Cloudflare仪表板](https://dash.cloudflare.com/)。
 2. 导航到 **Workers和Pages > Workers和Pages**，点击 **创建**。
