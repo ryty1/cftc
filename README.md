@@ -156,5 +156,12 @@ cftc 提供了以下强大的功能，满足从个人用户到开发者的多种
 ### [telegram](https://telegram.org/) - 便捷的 Bot API。
 ### 感谢 [xAI](https://x.ai/)   [claude](https://claude.ai/) 帮助我完成了本项目的开发和优化
 
+## 声明
+
+- **尊重原创，转载须知**  
+  如需转载，请务必注明出处，感谢支持！严禁将本项目用于任何违法犯罪行为。  
+- **二次修改与发布**  
+  欢迎基于本项目进行二次开发，但请在发布时注明原始出处，共同维护开源社区的良好氛围。
+
 # ⭐ 谢谢您的star
 ![Star 增长趋势](https://raw.githubusercontent.com/iawooo/StarCharts/refs/heads/main/images/cftc_star_chart.png)
