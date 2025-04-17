@@ -163,5 +163,5 @@ cftc 提供了以下强大的功能，满足从个人用户到开发者的多种
 - **二次修改与发布**  
   欢迎基于本项目进行二次开发，但请在发布时注明原始出处，共同维护开源社区的良好氛围。
 
-# ⭐ 觉得项目不错给star叭，谢谢您的star
+# ⭐ 觉得项目不错点个star，谢谢您的star
 ![Star 增长趋势](https://raw.githubusercontent.com/iawooo/StarCharts/refs/heads/main/images/cftc_star_chart.png)
